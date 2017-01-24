@@ -1,0 +1,152 @@
+
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+body {
+  padding-top: 20px;
+}
+
+ .main-area {
+  min-height: 100px;
+border: 2px solid black;
+border-radius: 15px;
+}
+
+.add-button {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 16px;
+
+}
+
+.back-button {
+margin:15px;
+border: 1px solid #9c9c9c;
+border-radius: 3px;
+}
+
+.save-button {
+float: right;
+margin:15px;
+border: 1px solid #9c9c9c;
+border-radius: 3px;
+}
+
+.main-area-shops {
+  background: #c3c3c3;  
+  border-radius: 4px;
+  min-height: 450px;
+}
+
+.main-area-mylist {
+  background: #c3c3c3;  
+  border-radius: 4px;
+  min-height: 50px;
+}
+
+.main-area-archive {
+  background: #c3c3c3;  
+  border-radius: 4px; 
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.clearfix:after {
+content: "";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+.shops-list {
+  margin-top: 20px;
+  background: #fff;  
+  border-radius: 4px;
+  border: 1px solid black;
+  min-height: 50px;
+  padding: 10px;
+}
+
+.checkbox-list {
+margin-top: 15px !important;
+margin-bottom: 10px !important;
+cursor: pointer;
+}
+
+.product-name {
+  display: inline-block;
+  float: left;
+  }
+
+  .product-in-list {
+    border: 1px solid #b7b7b7;    
+    border-radius: 4px;
+    margin-bottom: 5px; 
+  }
+
+ .products-list {
+   margin-top: 20px;
+   margin-bottom: 20px;
+  background: #fff;  
+  border-radius: 4px;
+  min-height: 150px;
+  padding: 10px;
+ }
+
+  .category {
+    text-align: left;
+    font-size: 20px;
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 5px !important;
+  }
+
+  .archive-list {
+  margin-top: 20px;
+   margin-bottom: 20px;
+  background: #fff;  
+  border-radius: 4px; 
+  }
+
+  .form-control {
+    width:150px;
+  }
+
+  .delete-button {
+    margin-top: 5px !important;
+    float: right;
+  }
+
+.message {
+  font-size: 20px;
+ text-align: center
+}
+
+  @media (min-width: 992px) {
+  .navbar-nav > li {
+    float: left;
+    font-size: 18px !important
+  }
+}
+
+table {
+margin-top: 20px;
+margin-bottom: 20px;
+width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding:3px;
+}
+
